@@ -53,7 +53,7 @@ public class TestListInt {
 		/**
 		 * On parcourt le tableau pour trouver le nombre le plus grand
 		 */
-		maximum = Collections.max(tab);
+		maximum = (int) Collections.max(tab);
 		//maximum = (int) Collections.max(Arrays.asList(nombre));
 		/*for (int i=0; i<tab.size(); i++) {
 			if (tab.get(i) > maximum)
